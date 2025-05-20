@@ -1,0 +1,38 @@
+#calc {
+    border: 2px solid black;
+    border-radius: 20px;
+    background-color: rgb(211, 216, 233);
+    color: black;
+    width: 400px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+#numPad {
+    display: grid;
+    width: 100%;
+    grid-template-columns: 25% 25% 25% 25%;
+    background: radial-gradient(rgb(163, 184, 183), rgb(211, 216, 233));
+
+    button {
+        padding: 10px 0;
+        font-size: 2em;
+    }
+}
+
+#display {
+    background-color: rgb(194, 194, 194);
+    width: 400px;
+    height: 100px;
+    overflow: hidden;
+    font-size: 3em;
+    text-align: center;
+}
+
+#clear {
+    font-size: 4em;
+    padding: 20px;
+    border-radius: 15px;
+    float: right;
+    margin-right: 20px;
+}
